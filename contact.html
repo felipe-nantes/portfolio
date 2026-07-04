@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Contato — Felipe Nantes</title>
+  <meta name="description" content="Entre em contato com Felipe Nantes. Envie uma mensagem para conversar sobre projetos, oportunidades ou parcerias em desenvolvimento de software." />
+  <meta name="keywords" content="contato, Felipe Nantes, e-mail, GitHub, oportunidades, freelance, desenvolvedor" />
+  <meta name="author" content="Felipe Nantes" />
+  <link rel="canonical" href="https://felipe-nantes.dev/contact.html" />
+  <meta property="og:title" content="Contato — Felipe Nantes" />
+  <meta property="og:description" content="Envie uma mensagem para conversar sobre projetos e oportunidades." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0c0e'/%3E%3Ctext x='16' y='23' font-size='20' font-family='monospace' fill='%239d5cff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span>FELIPE&nbsp;NANTES</a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="projects.html">Projetos</a>
+        <a href="about.html">Sobre</a>
+        <a href="contact.html" class="active">Contato</a>
+      </nav>
+      <button class="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap">
+      <p class="eyebrow reveal">Bora conversar</p>
+      <h1 class="section-title reveal d1">Entre em contato</h1>
+      <p class="lead reveal d2">Tem um projeto, uma vaga, ou só quer trocar ideia sobre código? Manda mensagem. O formulário confere tudo antes de você enviar.</p>
+
+      <div class="contact-grid" style="margin-top:50px">
+        <!-- FORM (validação via JavaScript) -->
+        <form id="contact-form" class="reveal d2" novalidate>
+          <div class="field" data-field="name">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" autocomplete="name" />
+            <div class="err" role="alert"></div>
+          </div>
+          <div class="field" data-field="email">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="voce@exemplo.com" autocomplete="email" />
+            <div class="err" role="alert"></div>
+          </div>
+          <div class="field" data-field="subject">
+            <label for="subject">Assunto</label>
+            <input type="text" id="subject" name="subject" placeholder="Sobre o que é?" />
+            <div class="err" role="alert"></div>
+          </div>
+          <div class="field" data-field="message">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" placeholder="Conte os detalhes..."></textarea>
+            <div class="err" role="alert"></div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensagem →</button>
+          <div class="form-note" role="status" aria-live="polite"></div>
+        </form>
+
+        <!-- INFO -->
+        <aside class="reveal d3">
+          <div class="info-block">
+            <div class="info-row"><div class="ic">@</div><div><div class="t">E-mail</div><div class="d">fnantes07@gmail.com</div></div></div>
+            <div class="info-row"><div class="ic">◇</div><div><div class="t">GitHub</div><div class="d"><a href="https://github.com/felipe-nantes" target="_blank" rel="noopener">github.com/felipe-nantes</a></div></div></div>
+            <div class="info-row"><div class="ic">◉</div><div><div class="t">Local</div><div class="d">Apucarana — PR, Brasil</div></div></div>
+            <div class="info-row"><div class="ic">✦</div><div><div class="t">Disponibilidade</div><div class="d">Aberto a oportunidades</div></div></div>
+          </div>
+          <p class="lead" style="font-size:1rem;margin-top:24px">Respondo em uns dois dias. Se preferir, me chama direto no GitHub.</p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="index.html"><span class="dot"></span>FELIPE NANTES</a>
+      <p>© <span id="year">2026</span> · Feito com HTML, CSS & JavaScript</p>
+      <div class="social">
+        <a href="https://github.com/felipe-nantes" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:fnantes07@gmail.com">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

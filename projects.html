@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projetos — Felipe Nantes</title>
+  <meta name="description" content="Portfólio de projetos de Felipe Nantes: ARGOS (imagem médica em Python), REPZ (app de academia), locker (IoT), CRM em Java + Spring Boot, trainer.IA e mais." />
+  <meta name="keywords" content="projetos, portfólio, Python, TypeScript, React, Java, Spring Boot, IoT, Felipe Nantes" />
+  <meta name="author" content="Felipe Nantes" />
+  <link rel="canonical" href="https://felipe-nantes.dev/projects.html" />
+  <meta property="og:title" content="Projetos — Felipe Nantes" />
+  <meta property="og:description" content="De pipelines de imagem médica a apps mobile: uma coleção de projetos reais." />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0c0e'/%3E%3Ctext x='16' y='23' font-size='20' font-family='monospace' fill='%239d5cff' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html"><span class="dot"></span>FELIPE&nbsp;NANTES</a>
+      <nav class="nav-links" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="projects.html" class="active">Projetos</a>
+        <a href="about.html">Sobre</a>
+        <a href="contact.html">Contato</a>
+      </nav>
+      <button class="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap">
+      <p class="eyebrow reveal">Tudo no GitHub</p>
+      <h1 class="section-title reveal d1">Projetos</h1>
+      <p class="lead reveal d2">Tudo que construí e deixei aberto no GitHub. Filtra por linguagem se quiser garimpar.</p>
+
+      <!-- Filtro (efeito interativo JS) -->
+      <div class="filters reveal d3">
+        <button class="chip active" data-filter="all">Todos</button>
+        <button class="chip" data-filter="Python">Python</button>
+        <button class="chip" data-filter="TypeScript">TypeScript</button>
+        <button class="chip" data-filter="JavaScript">JavaScript</button>
+        <button class="chip" data-filter="Liquid">Liquid</button>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal d1" data-lang="Python">
+          <span class="idx">// argos</span>
+          <h3>ARGOS</h3>
+          <p>Pega ressonância de fígado e monta um modelo 3D. Python. Meu primeiro cruzamento entre software e medicina.</p>
+          <div class="meta"><span class="lang">Python</span><span class="lang">★ 1</span><a class="go" href="https://github.com/felipe-nantes/argos" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d2" data-lang="JavaScript">
+          <span class="idx">// locker</span>
+          <h3>locker</h3>
+          <p>Hub modular que protege carregadores elétricos. Você libera pelo QR. Ainda em fase de protótipo.</p>
+          <div class="meta"><span class="lang">JavaScript</span><span class="lang">IoT</span><a class="go" href="https://github.com/felipe-nantes/locker" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d3" data-lang="TypeScript">
+          <span class="idx">// abnt_adapter</span>
+          <h3>abnt_adapter</h3>
+          <p>Formata documento no padrão ABNT sozinho. Nasceu da preguiça de formatar trabalho na mão.</p>
+          <div class="meta"><span class="lang">TypeScript</span><a class="go" href="https://github.com/felipe-nantes/abnt_adapter" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d1" data-lang="TypeScript">
+          <span class="idx">// sale_page_wmc2</span>
+          <h3>sale_page_wmc2</h3>
+          <p>Página de lançamento do WMC2. O objetivo era simples: vender.</p>
+          <div class="meta"><span class="lang">TypeScript</span><a class="go" href="https://github.com/felipe-nantes/sale_page_wmc2" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d2" data-lang="JavaScript">
+          <span class="idx">// CRM-JAVA</span>
+          <h3>CRM-JAVA</h3>
+          <p>CRM inteiro: back-end em Java com Spring Boot, front em React com Tailwind e shadcn/ui.</p>
+          <div class="meta"><span class="lang">Java · React</span><a class="go" href="https://github.com/felipe-nantes/CRM-JAVA" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d3" data-lang="TypeScript">
+          <span class="idx">// sales_page_wmc2</span>
+          <h3>sales_page_wmc2</h3>
+          <p>Outra página do WMC2, dessa vez com pegada DedSec. Bem cyberpunk, meio caótica de propósito.</p>
+          <div class="meta"><span class="lang">TypeScript</span><a class="go" href="https://github.com/felipe-nantes/sales_page_wmc2" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d1" data-lang="TypeScript">
+          <span class="idx">// REPZ</span>
+          <h3>REPZ</h3>
+          <p>App de academia: registra série, treino e evolução. Mobile.</p>
+          <div class="meta"><span class="lang">TypeScript</span><span class="lang">Mobile</span><a class="go" href="https://github.com/felipe-nantes/REPZ" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d2" data-lang="Liquid">
+          <span class="idx">// kesher-shopify</span>
+          <h3>kesher-shopify</h3>
+          <p>Loja Shopify feita em Liquid pra marca Kesher. Tema customizado do zero.</p>
+          <div class="meta"><span class="lang">Liquid</span><span class="lang">Shopify</span><a class="go" href="https://github.com/felipe-nantes/kesher-shopify" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d3" data-lang="TypeScript">
+          <span class="idx">// agenda-mvp</span>
+          <h3>agenda-mvp</h3>
+          <p>MVP de agendamento. Fiz enxuto de propósito, só pra ver se a ideia parava de pé.</p>
+          <div class="meta"><span class="lang">TypeScript</span><a class="go" href="https://github.com/felipe-nantes/agenda-mvp" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d1" data-lang="Python">
+          <span class="idx">// trainer.IA</span>
+          <h3>trainer.IA</h3>
+          <p>Gera treino com IA. Você diz o objetivo, ele monta a rotina.</p>
+          <div class="meta"><span class="lang">IA</span><a class="go" href="https://github.com/felipe-nantes/trainer.IA" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+
+        <article class="card reveal d2" data-lang="Python">
+          <span class="idx">// python-pdf-to-excel</span>
+          <h3>python-pdf-to-excel</h3>
+          <p>Script Python que puxa dado de PDF e joga no Excel. Resolve a tarefa chata de copiar na mão.</p>
+          <div class="meta"><span class="lang">Python</span><a class="go" href="https://github.com/felipe-nantes/python-pdf-to-excel" target="_blank" rel="noopener">Abrir →</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="index.html"><span class="dot"></span>FELIPE NANTES</a>
+      <p>© <span id="year">2026</span> · Feito com HTML, CSS & JavaScript</p>
+      <div class="social">
+        <a href="https://github.com/felipe-nantes" target="_blank" rel="noopener">GitHub</a>
+        <a href="contact.html">E-mail</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
