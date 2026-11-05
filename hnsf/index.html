@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Humanização · Hospital Nossa Senhora de Fátima · Jandaia do Sul</title>
+  <meta name="description" content="Registro fotográfico das ações de humanização do Hospital Nossa Senhora de Fátima, em Jandaia do Sul (PR).">
+  <meta name="theme-color" content="#005868">
+  <meta name="robots" content="noindex, nofollow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Humanização · Hospital Nossa Senhora de Fátima">
+  <meta property="og:description" content="Registro fotográfico das ações de humanização do hospital, em Jandaia do Sul (PR).">
+  <meta property="og:image" content="https://felipe-nantes.github.io/portfolio/hnsf/assets/og.jpg">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/favicon.png">
+  <link rel="preload" href="assets/fonts/montserrat-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/public-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/fotos.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#albuns">Ir para as fotos</a>
+
+  <header class="masthead">
+    <div class="wrap masthead__inner">
+      <img class="masthead__logo" src="assets/logo-hnsf.webp" alt="Hospital Nossa Senhora de Fátima" width="741" height="240">
+      <span class="masthead__place">Jandaia do Sul<br>Paraná</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="titulo">
+      <div class="intro__marca" aria-hidden="true"></div>
+      <div class="wrap intro__inner">
+        <p class="eyebrow"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7.5-4.6-9.6-9.3C.9 8.2 3 4.5 6.6 4.5c2.1 0 3.6 1.2 4.4 2.6h2c.8-1.4 2.3-2.6 4.4-2.6 3.6 0 5.7 3.7 4.2 7.2C19.5 16.4 12 21 12 21z"/></svg>Humanização HNSF</p>
+        <h1 id="titulo">Cuidar vai além do <span>tratamento</span></h1>
+        <p class="lead">Registro das ações de humanização do Hospital Nossa Senhora de Fátima, em Jandaia do Sul (PR): acolhimento de pacientes, gestantes e famílias, campanhas de saúde, capacitação e valorização da equipe.</p>
+        <p class="count" id="contagem" aria-live="polite"></p>
+      </div>
+      <svg class="intro__onda" viewBox="0 0 1440 80" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 48 C 240 8, 480 8, 720 40 S 1200 80, 1440 30 L1440 80 L0 80 Z" fill="#b8e4e8" opacity=".55"/>
+        <path d="M0 62 C 300 30, 560 40, 820 58 S 1260 70, 1440 52 L1440 80 L0 80 Z" fill="#ffffff"/>
+      </svg>
+    </section>
+
+    <nav class="indice" aria-label="Períodos">
+      <div class="wrap indice__inner" id="indice"></div>
+    </nav>
+
+    <div class="wrap" id="albuns">
+      <!-- preenchido por assets/app.js a partir de assets/fotos.js -->
+      <noscript><p class="notice">Ative o JavaScript para ver a galeria de fotos.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__id">
+        <img src="assets/logo-icone.webp" alt="" width="222" height="240">
+        <div>
+          <strong>Hospital Nossa Senhora de Fátima</strong>
+          <span>Jandaia do Sul · Paraná</span>
+        </div>
+      </div>
+      <address class="footer__contact">
+        <span>Av. Dr. Getúlio Vargas, 584 · Centro · CEP 86900-000</span>
+        <a href="tel:+554334324300">(43) 3432-4300</a>
+        <a href="mailto:contato@hospitalnsf.org.br">contato@hospitalnsf.org.br</a>
+        <a href="https://hospitalnsf.org.br" rel="noopener">hospitalnsf.org.br</a>
+      </address>
+    </div>
+  </footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Visualizador de fotos">
+    <figure class="lightbox__figure">
+      <div class="lightbox__palco" id="lb-palco"></div>
+      <figcaption class="lightbox__caption"><span id="lb-caption"></span><span class="lightbox__counter" id="lb-counter"></span></figcaption>
+    </figure>
+    <button class="lb-btn lb-btn--close" id="lb-close" type="button" aria-label="Fechar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <button class="lb-btn lb-btn--prev" id="lb-prev" type="button" aria-label="Anterior">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="lb-btn lb-btn--next" id="lb-next" type="button" aria-label="Próxima">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </dialog>
+</body>
+</html>
